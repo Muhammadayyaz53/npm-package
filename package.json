@@ -1,0 +1,10 @@
+{
+  "name": "test-currency-converter",
+  "version": "1.0.0",
+  "description": "Test for currency converter",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node script.js"
+  }
+}
