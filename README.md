@@ -1,2 +1,2 @@
 # npm-package
-An npm package use fro currency converter
+npm package use fro currency converter
