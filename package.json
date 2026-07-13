@@ -1,0 +1,30 @@
+{
+  "name": "mayyaz--currency-converter",
+  "version": "1.0.0",
+  "description": "An npm package to convert currency",
+  "keywords": [
+    "npm",
+    "currency",
+    "converter"
+  ],
+  "homepage": "https://github.com/Muhammadayyaz53/npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/Muhammadayyaz53/npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammadayyaz53/npm-package.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Muhammad Ayyaz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "dev": "node index.js",
+  "test": "echo \"No tests specified\""
+},
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
