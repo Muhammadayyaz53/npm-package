@@ -1,11 +1,13 @@
 {
   "name": "fashan--currency-converter",
   "version": "1.2.0",
-  "description": "An npm package to convert currency",
+  "description": "A lightweight Node.js package for converting currencies using FreeCurrencyAPI.",
   "keywords": [
-    "npm",
     "currency",
-    "converter"
+    "converter",
+    "exchange-rate",
+    "forex",
+    "money"
   ],
   "homepage": "https://github.com/Muhammadayyaz53/npm-package#readme",
   "bugs": {
@@ -19,10 +21,14 @@
   "author": "Muhammad Ayyaz",
   "type": "module",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
-    "test": "echo \"No tests specified\""
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@everapi/freecurrencyapi-js": "^1.0.1"
