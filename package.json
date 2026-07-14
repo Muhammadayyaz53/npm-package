@@ -1,6 +1,6 @@
 {
   "name": "mayyaz--currency-converter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "An npm package to convert currency",
   "keywords": [
     "npm",
@@ -20,10 +20,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "dev": "node index.js",
-  "test": "echo \"No tests specified\""
-},
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests specified\""
+  },
   "dependencies": {
     "@everapi/freecurrencyapi-js": "^1.0.1"
   }
