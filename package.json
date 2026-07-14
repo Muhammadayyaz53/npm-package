@@ -1,5 +1,5 @@
 {
-  "name": "mayyaz--currency-converter",
+  "name": "fashan--currency-converter",
   "version": "1.2.0",
   "description": "An npm package to convert currency",
   "keywords": [
@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "@everapi/freecurrencyapi-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }
