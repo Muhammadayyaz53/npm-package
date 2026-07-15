@@ -5,9 +5,12 @@
   "keywords": [
     "currency",
     "converter",
+    "exchange",
     "exchange-rate",
     "forex",
-    "money"
+    "money",
+    "nodejs",
+    "npm"
   ],
   "homepage": "https://github.com/Muhammadayyaz53/npm-package#readme",
   "bugs": {
@@ -25,7 +28,10 @@
     "index.js"
   ],
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "tsc --noEmit"
   },
   "engines": {
     "node": ">=18"
@@ -34,6 +40,12 @@
     "@everapi/freecurrencyapi-js": "^1.0.1"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.31.0"
+    "@changesets/cli": "^2.31.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.64.0",
+    "vitest": "^4.1.10"
   }
 }
