@@ -1,6 +1,6 @@
 {
   "name": "fashan--currency-converter",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A lightweight Node.js package for converting currencies using FreeCurrencyAPI.",
   "keywords": [
     "currency",
@@ -28,12 +28,12 @@
     "index.js"
   ],
   "scripts": {
-  "test": "node test.js",
-  "lint": "eslint .",
-  "lint:fix": "eslint . --fix",
-  "build": "tsc --noEmit",
-  "prepublishOnly": "npm run lint && npm test && npm run build"
-},
+    "test": "node test.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "tsc --noEmit",
+    "prepublishOnly": "npm run lint && npm test && npm run build"
+  },
   "engines": {
     "node": ">=18"
   },
