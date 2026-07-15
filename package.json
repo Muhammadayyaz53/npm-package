@@ -1,6 +1,6 @@
 {
   "name": "fashan--currency-converter",
-  "version": "1.2.5",
+  "version": "1.2.4",
   "description": "A lightweight Node.js package for converting currencies using FreeCurrencyAPI.",
   "keywords": [
     "currency",
