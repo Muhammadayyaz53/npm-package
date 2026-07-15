@@ -1,5 +1,11 @@
 # fashan--currency-converter
 
+## 1.2.4
+
+### Patch Changes
+
+- Improve package scripts and metadata
+
 ## 1.2.3
 
 ### Patch Changes
