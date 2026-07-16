@@ -1,10 +1,52 @@
 {
-  "name": "test-currency-converter",
-  "version": "1.0.0",
-  "description": "Test for currency converter",
-  "main": "script.js",
+  "name": "fashan--currency-converter",
+  "version": "2.0.3",
+  "description": "A lightweight Node.js package for converting currencies using FreeCurrencyAPI.",
+  "keywords": [
+    "currency",
+    "converter",
+    "exchange",
+    "exchange-rate",
+    "forex",
+    "money",
+    "nodejs",
+    "npm"
+  ],
+  "homepage": "https://github.com/Muhammadayyaz53/npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/Muhammadayyaz53/npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammadayyaz53/npm-package.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Muhammad Ayyaz",
   "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "start": "node script.js"
+    "test": "node test.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "tsc --noEmit",
+    "prepublishOnly": "npm run lint && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.64.0",
+    "vitest": "^4.1.10"
   }
 }
