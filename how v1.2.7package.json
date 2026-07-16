@@ -1,9 +1,0 @@
-[33mcommit 828047d34a8f4e18f6f8a2088cb9b87a25a569d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.2.7[m[33m, [m[1;31morigin/master[m[33m)[m
-Author: Muhammad Ayyaz <ayyaz.revnix@gmail.com>
-Date:   Wed Jul 15 08:41:26 2026 -0700
-
-    release: v1.2.7
-
- package-lock.json |  4 [32m++[m[31m--[m
- package.json      | 16 [32m++++++++[m[31m--------[m
- 2 files changed, 10 insertions(+), 10 deletions(-)
