@@ -1,6 +1,6 @@
 import Freecurrencyapi from "@everapi/freecurrencyapi-js";
 
-const freecurrencyapi = new Freecurrencyapi("fca_live_915gJ2fLDimwfSHWTz00cYHxx7tpnRLtUdgVOA7q");
+const freecurrencyapi = new Freecurrencyapi(process.env.FREECURRENCY_API_KEY);
 
 export async function convertCurrency(fromCurrency, toCurrency, units) {
   try {
@@ -8,13 +8,11 @@ export async function convertCurrency(fromCurrency, toCurrency, units) {
       base_currency: fromCurrency,
       currencies: toCurrency,
     });
-
     if (res.message || res.errors) {
       console.error("API Error:", res.message);
       if (res.errors) console.error("Details:", res.errors);
       return null;
     }
-
     if (res.data && res.data[toCurrency]) {
       const rate = res.data[toCurrency];
       return rate * units;
